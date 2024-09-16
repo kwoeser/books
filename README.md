@@ -1,3 +1,5 @@
+Works but needs to be updated to store images of books
+
 # Created backend  
 npm init -y
 npm install express mysql2 nodemon cors
