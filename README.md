@@ -1,13 +1,13 @@
 Works but needs to be updated to store images of books
 
 # Created backend  
-npm init -y
-npm install express mysql2 nodemon cors
+1. npm init -y
+2. npm install express mysql2 nodemon cors
 
 # Created frontend  
-npx create-react-app client
-npm i react-router-dom
-npm i axios
+1. npx create-react-app client
+2. npm i react-router-dom
+3. npm i axios
 
 
 # Run program 
