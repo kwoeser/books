@@ -12,5 +12,7 @@ Works but needs to be updated to store images of books
 
 # Run program 
 npx start
+
 check index.js for the port number for backend
+
 localhost:3000 is client
