@@ -1,0 +1,79 @@
+.App {
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  gap: 10px;
+}
+
+.book {
+  margin: 0 10px;
+  padding: 20px;
+  /* padding-bottom: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #ded7d7;
+}
+
+/* NEEDS TO BE CHANGED TO HOLD IMAGES INSTEAD */
+img {
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+  background-color: coral;
+}
+
+.delete {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #e97910;
+  color: red;
+}
+
+.update {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid rgb(129, 80, 129);
+  color: #64ab71;
+  text-decoration: "none";
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formButton {
+  border: none;
+  padding: 10px;
+  background-color: #e97910;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}

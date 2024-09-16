@@ -1,0 +1,14 @@
+# create backend program with 
+npm init -y
+npm install express mysql2 nodemon cors
+
+# create frontend with 
+npx create-react-app client
+npm i react-router-dom
+npm i axios
+
+
+# run program with
+npx start
+check index.js for the port number
+localhost:3333
