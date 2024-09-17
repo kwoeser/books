@@ -11,7 +11,7 @@ Works but needs to be updated to store images of books
 
 
 # Run and stop program 
-docker-compose --up build
+docker-compose up --build
 
 docker stop
 
