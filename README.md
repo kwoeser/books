@@ -10,7 +10,13 @@ Works but needs to be updated to store images of books
 3. npm i axios
 
 
-# Run program 
+# Run and stop program 
+docker-compose --up build
+
+docker stop
+
+OR YOU CAN RUN USING: 
+
 npx start both backend and client
 
 check index.js for the port number for backend
