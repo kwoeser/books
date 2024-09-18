@@ -1,5 +1,4 @@
-Works but needs to be updated to store images of books
-Need MySQL downloaded
+Works but needs to be updated to store images of books. Needs MySQL downloaded
 
 # Created backend  
 1. npm init -y
