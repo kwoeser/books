@@ -9,7 +9,9 @@ app.use(cors());
 
 // Connect to the database
 const db = mysql.createConnection({
-  host: "localhost",
+  host: "localhost", // BEFORE DOCKER CONFIGURATION
+  // host: "docker_db", // Docker service name for MySQL
+  // DB_PORT: 5000,
   user: "root",
   password: "Herbertpur@3",
   database: "test",
